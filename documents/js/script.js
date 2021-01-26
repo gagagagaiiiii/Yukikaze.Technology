@@ -42,13 +42,13 @@ $(window).scroll(function(){
    $('.scroll-arrow').fadeIn();
    $('.blank1').css({height:(600-(sc*0.5))+"px"});
    if ($(window).width() > 900) {
-     $('#blog').css({opacity:'0'})
+     $('#blog').css({opacity:'0'});
    }
  }else
  if(sc>900){
    $('.scroll-arrow').fadeOut();
    $('.top-logo').fadeOut();
-   $('#blog').css({opacity:'1'})
+   $('#blog').css({opacity:'1'});
  }
  //以下top
    $('.top-logo').css({width:((sc*30) + 500) + "px",})
