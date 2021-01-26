@@ -293,6 +293,7 @@ img.top-logo{
 }
 #menu div {
   position: relative;
+  opacity:1;
 }
 
 .arrow_box {
