@@ -41,7 +41,9 @@ $(window).scroll(function(){
    $('.top-logo').fadeIn();
    $('.scroll-arrow').fadeIn();
    $('.blank1').css({height:(600-(sc*0.5))+"px"});
-   $('#blog').css({opacity:'0'})
+   if ($(window).width() > 900) {
+     $('#blog').css({opacity:'0'})
+   }
  }else
  if(sc>900){
    $('.scroll-arrow').fadeOut();
